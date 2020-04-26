@@ -711,8 +711,8 @@ section.lazy-placeholder:after {
 }@isPublish: true;
 
 .cid-rXfcXKRY8Y {
-@slides__autoplay: "true";
-@slides__autoplayInterval: 2000;
+@slides__autoplay: "hover";
+@slides__autoplayInterval: 5000;
 @slides__showBullets: true;
 @slides__embedded: "true";
 
@@ -1362,7 +1362,7 @@ nav.opened .hamburger span {
     }
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 200px) {
   .menu-logo {
     flex-shrink: 0;
     -webkit-flex-shrink: 0;
