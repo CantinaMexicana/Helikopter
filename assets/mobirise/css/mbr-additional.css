@@ -1377,15 +1377,21 @@ nav.opened .hamburger span {
 }
 }
 
+.cid-rXftoU6tXb {
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+}
+
 .cid-rXfde1eHlU {
-@paddingTop: 3;
-@paddingBottom: 3;
-@contentWidth: 66;
-@proportions: 62;
-@showCaption: true;
-@overlayColor: #232323;
-@overlayOpacity: 0.3;
-@bgColor: #ffffff;
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -1426,7 +1432,7 @@ background: @bgColor;
     }
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   .img-item {
     width: 100% !important;
     &.item1 {
