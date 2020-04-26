@@ -1213,15 +1213,15 @@ background: @bgColor;
 @showSubTitle: true;
 @showText: true;
 @showButtons: true;
-@uname__12: "file:///Users/jm_onlyeko/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2020-04-26_083427/assets/images/mbr-1920x1280.jpg";
+@uname__12: "file:///Users/jm_onlyeko/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2020-04-26_083427/assets/images/mbr-1920x1280.png";
 @uname__13: true;
 @uname__14: #7f1933;
-@bg-value: "file:///Users/jm_onlyeko/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2020-04-26_083427/assets/images/mbr-1920x1280.jpg";
+@bg-value: "file:///Users/jm_onlyeko/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2020-04-26_083427/assets/images/mbr-1920x1280.png";
 @bg-type: "image";
 @bg-color-value: #7f1933;
 @bg-parallax: true;
 @overlay: true;
-@overlayColor: #149dcc;
+@overlayColor: #879a9f;
 @overlayOpacity: 0.6;
 
 & when not (@fullScreen) {
