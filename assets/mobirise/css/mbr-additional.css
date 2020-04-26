@@ -711,8 +711,8 @@ section.lazy-placeholder:after {
 }@isPublish: true;
 
 .cid-rXfcXKRY8Y {
-@slides__autoplay: "false";
-@slides__autoplayInterval: 4000;
+@slides__autoplay: "true";
+@slides__autoplayInterval: 2000;
 @slides__showBullets: true;
 @slides__embedded: "true";
 
@@ -952,15 +952,15 @@ section.lazy-placeholder:after {
 
 .cid-rXfcItgiBA {
 @showLogo: true;
-@logoSize: 4.7;
+@logoSize: 3.8;
 @showBrand: true;
-@showItems: true;
+@showItems: false;
 @itemsHoverColor: #c1c1c1;
-@showButtons: true;
+@showButtons: false;
 @sticky: true;
-@collapsed: false;
+@collapsed: true;
 @transparent: false;
-@hamburgerColor: #ffffff;
+@hamburgerColor: #f9f295;
 @menuBgColor: #b2ccd2;
 
 .navbar {
